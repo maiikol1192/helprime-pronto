@@ -70,7 +70,7 @@ h2{
     outline: none;
     border-style: none;
     background-color: rgba(0, 0, 0, 0);
-    border-bottom: 1px rgb(243, 90, 90) solid;
+    border-bottom: 0 rgb(243, 90, 90) solid;
 }
 
 .cargando{
