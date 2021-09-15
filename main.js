@@ -2,6 +2,11 @@ const app = new Vue({
     el:"#app",
     data:{
         nombre:"",
+        cargando:true,
+    },
+
+    mounted() {
+        this.cargando = false
     },
 
     computed:{

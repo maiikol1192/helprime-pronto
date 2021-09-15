@@ -73,3 +73,22 @@ h2{
     border-bottom: 1px rgb(243, 90, 90) solid;
 }
 
+.cargando{
+    background-color: rgb(255, 255, 255); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    z-index: 100000;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.cargando img{
+    transition: all 3s;
+    height: 100px;
+}
+
