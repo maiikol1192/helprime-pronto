@@ -24,6 +24,16 @@ a{
     padding: 10px 30px;
     background-color: #FF7465;
     border-radius: 20px;
+    transition: .3s;
+}
+
+a:hover{
+    transform: translate(0, -2px);
+    color: white;
+    border-radius: 20px;
+background: #FF7465;
+box-shadow:  10px 10px 30px #bebebe,
+             -10px -10px 30px #ffffff;
 }
 
 span{
